@@ -2,7 +2,7 @@
 
 OREFORGE is an academic all-in-one gamified financial management platform designed to track investments, automate yield calculations, and encourage wealth accumulation through RPG mechanics.
 
-[![Category](https://img.shields.io/badge/CATEGORY-ACADEMIC%20PROJECT-e0004d?style=for-the-badge)](#)[![UNIVAG](https://img.shields.io/badge/UNIVAG-PROJETO%20INTEGRADOR%20EXTENSIONISTA-00c8ff?style=for-the-badge)](#)[![License](https://img.shields.io/badge/LICENSE-MIT-76b900?style=for-the-badge)](#)
+[![Category](https://img.shields.io/badge/CATEGORY-ACADEMIC%20PROJECT-e0004d?style=for-the-badge)](#) [![UNIVAG](https://img.shields.io/badge/UNIVAG-PROJETO%20INTEGRADOR%20EXTENSIONISTA-00c8ff?style=for-the-badge)](#) [![License](https://img.shields.io/badge/LICENSE-MIT-76b900?style=for-the-badge)](#)
 
 ---
 
