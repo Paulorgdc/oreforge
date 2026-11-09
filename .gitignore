@@ -44,3 +44,16 @@ yarn-error.*
 *.pem
 .vercel
 .env*
+!.env.example
+!**/.env.example
+
+# Segredos e caches
+.env.*
+**/.env
+**/.env.*
+__pycache__/
+*.py[cod]
+.cache/
+.pytest_cache/
+.venv/
+venv/
