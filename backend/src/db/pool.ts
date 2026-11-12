@@ -1,7 +1,7 @@
 import { Pool } from 'pg'
 import dotenv from 'dotenv'
 
-dotenv.config()
+dotenv.config({ path: '.env.local' })
 
 const dbUrl = process.env.DATABASE_URL || ''
 const isSupabase = dbUrl.includes('supabase.co')

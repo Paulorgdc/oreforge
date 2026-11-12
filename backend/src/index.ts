@@ -6,7 +6,7 @@ import authRoutes from './routes/auth'
 import investmentRoutes from './routes/investments'
 import userRoutes from './routes/users'
 
-dotenv.config()
+dotenv.config({ path: '.env.local' })
 
 const app = express()
 

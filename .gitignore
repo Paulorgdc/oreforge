@@ -44,8 +44,6 @@ yarn-error.*
 *.pem
 .vercel
 .env*
-!.env.example
-!**/.env.example
 
 # Segredos e caches
 .env.*
@@ -57,3 +55,7 @@ __pycache__/
 .pytest_cache/
 .venv/
 venv/
+
+# Safe templates must remain includable after broad environment patterns.
+!.env.example
+!**/.env.example

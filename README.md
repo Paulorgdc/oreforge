@@ -35,9 +35,32 @@ The platform provides a digital gamified solution for personal finance managemen
 
 ---
 
+## 📦 Deliverables
+
+| What | Where to see it |
+|---|---|
+| Web app and landing with Android `.apk` download | [oreforge.vercel.app](https://oreforge.vercel.app) (`frontend/`) |
+| Mobile app (Expo) | `mobile/`, run with `npm start` |
+| REST API (Express, JWT) | `backend/` |
+
+---
+
 ## 🛠️ Installation & Setup
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/Paulorgdc/oreforge.git](https://github.com/Paulorgdc/oreforge.git)
+   git clone https://github.com/Paulorgdc/oreforge.git
    cd oreforge
+   ```
+
+2. **Install each application independently:** run `npm ci` in `backend`,
+   `frontend` and `mobile`. Each application has its own lockfile.
+3. Copy each module's `.env.example` to `.env.local` in the same module (the backend loads `backend/.env.local` explicitly, Vite and Expo read `.env.local` natively).
+   Configure backend database/JWT/SMTP settings and the API URL used by clients.
+   Keep real credentials out of Git.
+4. Run `npm run dev` in `backend` and `frontend`; run `npm start` in `mobile`.
+   Follow Expo's device/emulator instructions. Database migration is an explicit
+   operational action (`npm run migrate` in backend), not part of documentation checks.
+
+SDK versions are defined by
+the module manifests and lockfiles, not by descriptive minimum versions here.
